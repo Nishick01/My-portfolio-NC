@@ -5,10 +5,19 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <title> Nishi's portpolio</title>
+<style> 
+  .bg-image{
+    background-image: url("./image/bgimage.jpg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+</style>
 </head>
 
 <body>
-  <nav class="p-5 flex items-center justify-center shadow-md">
+  <nav class="p-5 flex items-center justify-center shadow-md bg-transparent fixed w-full">
     <ul class="flex gap-10 list-none font-semibold">
       <li><a href="">Home</a></li>
       <li><a href="">Services</a></li>
@@ -17,6 +26,14 @@
       <li><a href="">contect me</a></li>
     </ul>
   </nav>
+
+  <header class="bg-image flex items-center justify-center">
+    <div class="text-gray-100">
+      <h1 class="text text-6xl">Hello I'm</h1>
+      <h1 class="text-6xl font-bold">Nishi chakma</h1>
+      <p class="text-2xl">This is my resume</p>
+    </div>
+  </header>
 </body>
 
 </html>
